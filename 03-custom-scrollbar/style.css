@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    
+    height: 100vh;
+    background-color: #f1b6b6;
+}
+.card{
+    width: 800px;
+    height: 200px;
+    background-color: #b8d487;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin: 10px 
+    
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color:transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d20808  ;
+    border-radius: 5px;
+    width: 10px ;
+    height: 15px;
+}
